@@ -1,0 +1,44 @@
+body {
+    background: url('computer.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+#appicon2 {
+   position: absolute; left: 60%; top: 40%;
+ 
+   
+}
+
+#appicon1 {
+   position: absolute; left: 35%; top: 30%;
+  
+}
+
+button {
+
+   background: transparent;
+   border: none;
+   font-size:0;
+}
+
+#buttonhome {
+   background: transparent;
+   border: none;
+   font-size:0;
+
+}
+
+
+
+#navbarToggleExternalContent {
+   background-color: #18223C ;
+
+}
+
+#navbar {
+   background-color: #18223C ;
+
+}

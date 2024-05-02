@@ -1,0 +1,121 @@
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+#buttonhome {
+    background: transparent;
+   border: none;
+   font-size:0;
+
+}
+
+
+#navbarToggleExternalContent {
+    background-color: #18223c ;
+}
+
+#navbar {
+    background-color: #18223c ;
+
+}
+
+
+#body {
+    background-color: #42474f;
+    color: white;
+    background: url(windowsbg.png);
+}
+
+#center {
+    background-color: white;
+    margin: 3%;    
+    border-radius: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: 100vw;
+    color: #18223c;
+}
+
+#icon {
+    background-color: #18223c;
+    margin-left: -0.9vw;
+    margin-right: -12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-left: 1.5vw;
+    color: white;
+}
+
+
+iframe {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 50vw;
+    height: 40vw;
+    border-radius: 20px;
+    margin: 2vw;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    width: 100%;
+  }
+  .grid-item {
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  #item1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-wrap: wrap;
+  }
+
+  #item5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  #item7 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+  
+  #troll {
+    margin-left: 45vw;
+    border-radius: 20px;
+    margin-bottom: 4;
+  }
+
+ #superhappy {
+    border-radius: 20px;
+    margin-right: 2vw;
+    margin-top: 2vw;
+ }
+
+
+  #plain {
+    padding-top: 2vw;
+  }
+
